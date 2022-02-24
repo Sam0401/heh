@@ -1,0 +1,299 @@
+header{
+   width: 100%;
+   height: 100vh;
+   position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px ;
+    font-family: 'oswald',sans-serif;
+    
+}
+.logo{
+    font-size: 60px;
+    letter-spacing: 5px;
+    color:   rgb(197, 205, 214) ;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.menu{
+    text-decoration: none;
+    padding: 10px;
+    color:  rgb(197, 205, 214) ;
+    
+}
+.menu a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 35px;
+    color:   rgb(197, 205, 214) ;
+    font-weight: bold;
+}
+.htext{
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left:10%;
+}
+.htext h1{
+    font-size: 6em;
+    color: #222f3e;
+    font-family:'dancing script',cursive;
+}
+.htext p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.htext a{border: none;
+    color: rgb(235, 226, 233);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius:6px;
+    background: #0b0c0c;
+    font-weight: bold;    
+
+}
+.htext li{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icon{
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.menu i{
+    color:#ee0c7567 ;
+}
+.icon i{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin:5px 0px;
+    background: #e9addc ;
+}
+.icon i:hover{
+    background: transparent;
+    transition: 0.4s;
+    border: 1px solid black;
+    color: black;
+}
+.box{
+    width:60%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    right:0 ;
+    background: rgb(233, 173, 220) ;
+    z-index: -2;
+}
+.box2{
+    width:20%;
+    height: 800px;
+    position: absolute;
+    top: 0px;
+    right:0 ;
+    background: rgb(131, 23, 99) ;
+    z-index: -2;
+}
+.SamMb{
+    width: 35%;
+    height: 91%;
+    position: absolute;
+    margin-top: 100px;
+    right: 10%;
+    top: 0px;
+    z-index: -1;
+}
+/* Resume */
+.Resume{
+    background-color: #8d1573;
+    height: 50px;
+    margin: 0px;
+    text-align:center;
+    color: azure;
+}
+
+    /* About */
+
+    .aboutbg {
+        background-image: url(https://media.istockphoto.com/photos/geometry-tools-an-open-compass-placed-over-a-page-of-a-spiral-notepad-picture-id1358743546?k=20&m=1358743546&s=612x612&w=0&h=NSv1qQNOO13uOrZ6_l_PcvIaObkjiX9BrQrb0HxMr00=);
+        
+        background-size: cover;
+
+    }
+    .abtH{
+        height: 50px;
+        /* background-color: #e9addc; */
+        color: rgb(17, 20, 22);
+        text-align: center;
+        background: transparent;
+        font-size: 40px;
+    }
+    .abt1{
+     height: 400px;   
+     background-color: rgba(121, 126, 148, 0.808);
+     width: 400px;
+     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+
+    }
+    .abt1 p{
+        font-size: 30px;
+        color: azure;
+        font-family:'dancing script',cursive;
+        text-align: center;
+        margin-top: 0;
+        padding: 25px;
+        
+        
+    }
+    .abt2 {
+        background-color: rgba(112, 219, 103, 0.801);
+        height: 500px;
+        width: 500px;
+         margin-top: 200px;    
+         margin-left: 10px;
+         border-radius: 20px;
+         font-size: 30px;
+        color: rgb(24, 34, 34);
+        font-family:'dancing script',cursive;
+        text-align: center;      
+    }
+    .abt3{
+        background-color: rgba(172, 92, 172, 0.582);
+        color: white;
+        margin-left:10px;
+        height: 400px;
+        width: 400px;
+        color: azure;
+        font-family:'dancing script',cursive;
+        text-align: center;
+        clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    }
+    .abt3 li{
+        font-size: 30px;
+    }
+    .abt4 {
+        background-color: rgba(179, 216, 46, 0.74);
+        height: 350px;
+        width: 350px;
+      border-radius:30px;
+        margin-top: 300px;
+        font-family:'dancing script',cursive;
+        text-align: center;
+        font-size: 30px;
+    }
+   .abt4 h1{
+       text-align: center;
+       font-size: 30px;
+   }
+   /* contact */
+.bgcon{
+    background-image: url(contactbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.conthead{
+    text-align: center;
+    width: 100%;
+    top: 50px;
+    color: rgb(14, 13, 13);
+}
+.conthead h1{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+.contbody{
+    display: flex;
+   min-height: 500px;
+  
+}
+.details{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.c i{
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+    background-color: white;
+    text-align: center;
+}
+.c h2 , p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(238, 234, 238);
+}
+.validation{
+    display: flex;
+    top: 0;
+    left: 0;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.validation .contactfrm input{
+    width: 400px;
+    background: transparent;
+    border: 0px;
+    border: transparent;
+    margin:20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom:2px solid white ;
+    color: white;
+}
+.validation .contactfrm label{
+font-size: 20px;
+font-weight: bold;
+font-family: 'Open Sans', sans-serif;
+color: rgb(233, 219, 223);
+}
+.validation .contactfrm textarea{
+    width: 400px;
+    background: transparent;
+    border: 0px;
+    border: transparent;
+    margin:20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom:2px solid white ;
+    color: white;
+}
+#submit{
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+    font-size: 20px;
+    width: 50%;
+    height: 40px;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+#submit:hover{
+background-color: transparent;
+color: dodgerblue;
+}
+.ICONS{
+    position: absolute;
+    margin-left:40% ;
+    color: rgb(226, 219, 219);
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.ICONS li{
+    padding: 50px;
+}
